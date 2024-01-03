@@ -1,0 +1,306 @@
+szerzj
+ezekben a mondatokban van zárvány
+
+https://urd2.let.rug.nl/~kleiweg/conllu/
+
+3019
+NOHEAD: 4 27
+NOHEAD: 4 22
+NOHEAD: 4 21
+NOHEAD: 4 13
+NOHEAD: 4 12
+NOHEAD: 4 10
+NOHEAD: 4 9
+NOHEAD: 4 8
+NOHEAD: 4 7
+
+1	A	a	T	_	SubPOS=f	2	DET	_	_
+2	közlemény	közlemény	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	3	SUBJ	_	_
+3	tartalmazza	tartalmaz	V	_	SubPOS=m|Mood=i|Tense=p|Per=3|Num=s|Def=y	0	ROOT	_	_
+4	-	-	-	_	_	7	PUNCT	_	_
+5	az	az	T	_	SubPOS=f	6	DET	_	_
+6	egyesület	egyesület	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	7	ATT	_	_
+7	nevét	név	N	_	SubPOS=c|Num=s|Cas=a|NumP=s|PerP=3|NumPd=none	4	OBJ	_	_
+8	,	,	,	_	_	7	PUNCT	_	_
+9	székhelyét	székhely	N	_	SubPOS=c|Num=s|Cas=a|NumP=s|PerP=3|NumPd=none	7	COORD	_	_
+10	,	,	,	_	_	9	PUNCT	_	_
+11	képviselőjének	képviselő	N	_	SubPOS=c|Num=s|Cas=g|NumP=s|PerP=3|NumPd=none	12	ATT	_	_
+12	nevét	név	N	_	SubPOS=c|Num=s|Cas=a|NumP=s|PerP=3|NumPd=none	9	COORD	_	_
+13	,	,	,	_	_	12	PUNCT	_	_
+14	-	-	-	_	_	21	PUNCT	_	_
+15	az	az	T	_	SubPOS=f	16	DET	_	_
+16	egyesület	egyesület	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	17	ATT	_	_
+17	által	által	S	_	SubPOS=t	18	MODE	_	_
+18	végzett	végzett	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	21	ATT	_	_
+19	közös	közös	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	20	ATT	_	_
+20	jogkezelő	jogkezelő	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	21	ATT	_	_
+21	tevékenységet	tevékenység	N	_	SubPOS=c|Num=s|Cas=a|NumP=none|PerP=none|NumPd=none	7	COORD	_	_
+22	,	,	,	_	_	21	PUNCT	_	_
+23	-	-	-	_	_	27	PUNCT	_	_
+24	a	a	T	_	SubPOS=f	26	DET	_	_
+25	nyilvántartásba	nyilvántartás	N	_	SubPOS=c|Num=s|Cas=x|NumP=none|PerP=none|NumPd=none	26	OBL	_	_
+26	vétel	vétel	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	27	ATT	_	_
+27	időpontját	időpont	N	_	SubPOS=c|Num=s|Cas=a|NumP=s|PerP=3|NumPd=none	21	COORD	_	_
+28	.	.	.	_	_	0	PUNCT	_	_
+
+
+3170
+NOHEAD: 27 153
+NOHEAD: 27 138
+NOHEAD: 27 137
+NOHEAD: 27 132
+NOHEAD: 27 131
+NOHEAD: 27 130
+NOHEAD: 27 127
+NOHEAD: 27 126
+NOHEAD: 27 124
+NOHEAD: 27 123
+NOHEAD: 27 117
+NOHEAD: 27 116
+NOHEAD: 27 115
+NOHEAD: 27 114
+NOHEAD: 27 113
+NOHEAD: 27 107
+NOHEAD: 27 106
+NOHEAD: 27 101
+NOHEAD: 27 100
+NOHEAD: 27 99
+NOHEAD: 27 97
+NOHEAD: 27 96
+NOHEAD: 27 94
+NOHEAD: 27 93
+NOHEAD: 27 92
+NOHEAD: 27 91
+NOHEAD: 27 74
+NOHEAD: 27 73
+NOHEAD: 27 72
+NOHEAD: 27 71
+NOHEAD: 27 66
+NOHEAD: 27 65
+NOHEAD: 27 64
+NOHEAD: 27 63
+NOHEAD: 27 62
+NOHEAD: 27 60
+NOHEAD: 27 59
+NOHEAD: 27 58
+NOHEAD: 27 53
+NOHEAD: 27 52
+NOHEAD: 27 47
+NOHEAD: 27 46
+NOHEAD: 27 44
+NOHEAD: 27 43
+NOHEAD: 27 40
+NOHEAD: 27 39
+NOHEAD: 27 36
+NOHEAD: 27 35
+NOHEAD: 27 34
+NOHEAD: 27 29
+NOHEAD: 27 28
+
+
+1	Az	az	T	_	SubPOS=f	5	DET	_	_
+2	1989	1989	M	_	SubPOS=o|Num=s|Cas=n|Form=d|NumP=none|PerP=none|NumPd=none	3	ATT	_	_
+3	évi	évi	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	5	ATT	_	_
+4	II.	2	M	_	SubPOS=o|Num=s|Cas=n|Form=r|NumP=none|PerP=none|NumPd=none	5	ATT	_	_
+5	törvény	törvény	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	6	ATT	_	_
+6	értelmében	értelem	N	_	SubPOS=c|Num=s|Cas=2|NumP=s|PerP=3|NumPd=none	22	OBL	_	_
+7	,	,	,	_	_	22	PUNCT	_	_
+8	ha	ha	C	_	SubPOS=s|Form=s|Coord=p	22	CONJ	_	_
+9	a	a	T	_	SubPOS=f	10	DET	_	_
+10	szervezet	szervezet	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	11	ATT	_	_
+11	működésének	működés	N	_	SubPOS=c|Num=s|Cas=g|NumP=s|PerP=3|NumPd=none	12	ATT	_	_
+12	törvényessége	törvényesség	N	_	SubPOS=c|Num=s|Cas=n|NumP=s|PerP=3|NumPd=none	16	SUBJ	_	_
+13	másképp	másképp	R	_	SubPOS=x|Deg=none|Num=none|Per=none	16	MODE	_	_
+14	nem	nem	R	_	SubPOS=m|Deg=none|Num=none|Per=none	16	NEG	_	_
+15	biztosítható	biztosítható	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	16	PRED	_	_
+16	_	_	VAN	_	_	8	ATT	_	_
+17	,	,	,	_	_	16	PUNCT	_	_
+18	az	az	T	_	SubPOS=f	19	DET	_	_
+19	ügyész	ügyész	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	22	SUBJ	_	_
+20	a	a	T	_	SubPOS=f	21	DET	_	_
+21	bírósághoz	bíróság	N	_	SubPOS=c|Num=s|Cas=t|NumP=none|PerP=none|NumPd=none	22	OBL	_	_
+22	fordulhat	fordulhat	V	_	SubPOS=m|Mood=i|Tense=p|Per=3|Num=s|Def=n	0	ROOT	_	_
+23	annak	az	P	_	SubPOS=d|Per=3|Num=s|Cas=g|NumP=none|PerP=none|NumPd=none	24	ATT	_	_
+24	érdekében	érdek	N	_	SubPOS=c|Num=s|Cas=2|NumP=s|PerP=3|NumPd=none	22	OBL	_	_
+25	,	,	,	_	_	22	PUNCT	_	_
+26	hogy	hogy	C	_	SubPOS=s|Form=s|Coord=p	22	CONJ	_	_
+27	-	-	-	_	_	28	PUNCT	_	_
+28	semmisítse	semmisít	V	_	SubPOS=m|Mood=m|Tense=p|Per=3|Num=s|Def=y	27	COORD	_	_
+29	meg	meg	R	_	SubPOS=p|Deg=none|Num=none|Per=none	28	PREVERB	_	_
+30	a	a	T	_	SubPOS=f	32	DET	_	_
+31	jogkezelő	jogkezelő	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	32	ATT	_	_
+32	egyesület	egyesület	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	34	ATT	_	_
+33	törvénysértő	törvénysértő	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	34	ATT	_	_
+34	határozatát	határozat	N	_	SubPOS=c|Num=s|Cas=a|NumP=s|PerP=3|NumPd=none	28	OBJ	_	_
+35	,	,	,	_	_	28	PUNCT	_	_
+36	és	és	C	_	SubPOS=c|Form=s|Coord=p	28	CONJ	_	_
+37	szükség	szükség	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	38	ATT	_	_
+38	szerint	szerint	S	_	SubPOS=t	39	MODE	_	_
+39	rendelje	rendel	V	_	SubPOS=m|Mood=m|Tense=p|Per=3|Num=s|Def=y	36	COORD	_	_
+40	el	el	R	_	SubPOS=p|Deg=none|Num=none|Per=none	39	PREVERB	_	_
+41	új	új	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	42	ATT	_	_
+42	határozat	határozat	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	43	ATT	_	_
+43	hozatalát	hozatal	N	_	SubPOS=c|Num=s|Cas=a|NumP=s|PerP=3|NumPd=none	39	OBJ	_	_
+44	;	;	;	_	_	28	PUNCT	_	_
+45	-	-	-	_	_	46	PUNCT	_	_
+46	hívja	hív	V	_	SubPOS=m|Mood=m|Tense=p|Per=3|Num=s|Def=y	28	COORD	_	_
+47	össze	össze	R	_	SubPOS=p|Deg=none|Num=none|Per=none	46	PREVERB	_	_
+48	a	a	T	_	SubPOS=f	50	DET	_	_
+49	jogkezelő	jogkezelő	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	50	ATT	_	_
+50	egyesület	egyesület	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	52	ATT	_	_
+51	legfelsőbb	felső	A	_	SubPOS=f|Deg=s|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	52	ATT	_	_
+52	szervét	szerv	N	_	SubPOS=c|Num=s|Cas=a|NumP=s|PerP=3|NumPd=none	46	OBJ	_	_
+53	;	;	;	_	_	46	PUNCT	_	_
+54	-	-	-	_	_	58	PUNCT	_	_
+55	az	az	T	_	SubPOS=f	56	DET	_	_
+56	egyesület	egyesület	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	57	ATT	_	_
+57	tevékenységét	tevékenység	N	_	SubPOS=c|Num=s|Cas=a|NumP=s|PerP=3|NumPd=none	58	OBJ	_	_
+58	függessze	függeszt	V	_	SubPOS=m|Mood=m|Tense=p|Per=3|Num=s|Def=y	46	COORD	_	_
+59	fel	fel	R	_	SubPOS=p|Deg=none|Num=none|Per=none	58	PREVERB	_	_
+60	és	és	C	_	SubPOS=c|Form=s|Coord=p	58	CONJ	_	_
+61	ellenőrzésére	ellenőrzés	N	_	SubPOS=c|Num=s|Cas=s|NumP=s|PerP=3|NumPd=none	62	OBL	_	_
+62	rendeljen	rendel	V	_	SubPOS=m|Mood=m|Tense=p|Per=3|Num=s|Def=n	60	COORD	_	_
+63	ki	ki	R	_	SubPOS=p|Deg=none|Num=none|Per=none	62	PREVERB	_	_
+64	felügyelőbiztost	felügyelőbiztos	N	_	SubPOS=c|Num=s|Cas=a|NumP=none|PerP=none|NumPd=none	62	OBJ	_	_
+65	,	,	,	_	_	62	PUNCT	_	_
+66	ha	ha	C	_	SubPOS=s|Form=s|Coord=p	62	CONJ	_	_
+67	a	a	T	_	SubPOS=f	68	DET	_	_
+68	szervezet	szervezet	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	70	ATT	_	_
+69	_	_	VAN	_	_	66	ATT	_	_
+70	működésének	működés	N	_	SubPOS=c|Num=s|Cas=g|NumP=s|PerP=3|NumPd=none	71	ATT	_	_
+71	törvényessége	törvényesség	N	_	SubPOS=c|Num=s|Cas=n|NumP=s|PerP=3|NumPd=none	69	SUBJ	_	_
+72	másképp	másképp	R	_	SubPOS=x|Deg=none|Num=none|Per=none	69	MODE	_	_
+73	nem	nem	R	_	SubPOS=m|Deg=none|Num=none|Per=none	69	NEG	_	_
+74	biztosítható	biztosítható	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	69	PRED	_	_
+75	(	(	(	_	_	91	PUNCT	_	_
+76	a	a	T	_	SubPOS=f	79	DET	_	_
+77	közös	közös	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	78	ATT	_	_
+78	jogkezelő	jogkezelő	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	79	ATT	_	_
+79	szervezetek	szervezet	N	_	SubPOS=c|Num=p|Cas=n|NumP=none|PerP=none|NumPd=none	84	ATT	_	_
+80	sajátos	sajátos	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	84	ATT	_	_
+81	belső	belső	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	84	ATT	_	_
+82	és	és	C	_	SubPOS=c|Form=s|Coord=w	81	CONJ	_	_
+83	külső	külső	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	82	COORD	_	_
+84	kapcsolatrendszere	kapcsolatrendszer	N	_	SubPOS=c|Num=s|Cas=n|NumP=s|PerP=3|NumPd=none	85	ATT	_	_
+85	miatt	miatt	S	_	SubPOS=t	91	MODE	_	_
+86	ez	ez	P	_	SubPOS=d|Per=3|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	88	DET	_	_
+87	az	az	T	_	SubPOS=f	88	DET	_	_
+88	intézkedés	intézkedés	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	91	SUBJ	_	_
+89	itt	itt	R	_	SubPOS=d|Deg=none|Num=none|Per=none	91	MODE	_	_
+90	nem	nem	R	_	SubPOS=m|Deg=none|Num=none|Per=none	91	NEG	_	_
+91	jöhet	jöhet	V	_	SubPOS=m|Mood=i|Tense=p|Per=3|Num=s|Def=n	62	APPEND	_	_
+92	szóba	szó	N	_	SubPOS=c|Num=s|Cas=x|NumP=none|PerP=none|NumPd=none	91	OBL	_	_
+93	)	)	)	_	_	91	PUNCT	_	_
+94	;	;	;	_	_	62	PUNCT	_	_
+95	-	-	-	_	_	96	PUNCT	_	_
+96	oszlassa	oszlat	V	_	SubPOS=m|Mood=m|Tense=p|Per=3|Num=s|Def=y	58	COORD	_	_
+97	fel	fel	R	_	SubPOS=p|Deg=none|Num=none|Per=none	96	PREVERB	_	_
+98	a	a	T	_	SubPOS=f	99	DET	_	_
+99	szervezetet	szervezet	N	_	SubPOS=c|Num=s|Cas=a|NumP=none|PerP=none|NumPd=none	96	OBJ	_	_
+100	,	,	,	_	_	96	PUNCT	_	_
+101	ha	ha	C	_	SubPOS=s|Form=s|Coord=p	96	CONJ	_	_
+102	annak	az	P	_	SubPOS=d|Per=3|Num=s|Cas=g|NumP=none|PerP=none|NumPd=none	103	ATT	_	_
+103	működése	működés	N	_	SubPOS=c|Num=s|Cas=n|NumP=s|PerP=3|NumPd=none	106	SUBJ	_	_
+104	az	az	T	_	SubPOS=f	105	DET	_	_
+105	Alkotmányba	alkotmány	N	_	SubPOS=c|Num=s|Cas=x|NumP=none|PerP=none|NumPd=none	106	OBL	_	_
+106	ütközik	ütközik	V	_	SubPOS=m|Mood=i|Tense=p|Per=3|Num=s|Def=n	101	ATT	_	_
+107	,	,	,	_	_	106	PUNCT	_	_
+108	bűncselekményt	bűncselekmény	N	_	SubPOS=c|Num=s|Cas=a|NumP=none|PerP=none|NumPd=none	113	OBJ	_	_
+109	vagy	vagy	C	_	SubPOS=c|Form=s|Coord=w	108	CONJ	_	_
+110	bűncselekményre	bűncselekmény	N	_	SubPOS=c|Num=s|Cas=s|NumP=none|PerP=none|NumPd=none	111	OBL	_	_
+111	való	való	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	112	ATT	_	_
+112	felhívást	felhívás	N	_	SubPOS=c|Num=s|Cas=a|NumP=none|PerP=none|NumPd=none	109	COORD	_	_
+113	valósít	valósít	V	_	SubPOS=m|Mood=i|Tense=p|Per=3|Num=s|Def=n	106	COORD	_	_
+114	meg	meg	R	_	SubPOS=p|Deg=none|Num=none|Per=none	113	PREVERB	_	_
+115	,	,	,	_	_	113	PUNCT	_	_
+116	valamint	valamint	C	_	SubPOS=c|Form=s|Coord=p	101	CONJ	_	_
+117	ha	ha	C	_	SubPOS=s|Form=s|Coord=p	116	COORD	_	_
+118	mások	más	P	_	SubPOS=i|Per=3|Num=p|Cas=n|NumP=none|PerP=none|NumPd=none	119	ATT	_	_
+119	jogainak	jog	N	_	SubPOS=c|Num=p|Cas=g|NumP=s|PerP=3|NumPd=none	122	ATT	_	_
+120	és	és	C	_	SubPOS=c|Form=s|Coord=w	119	CONJ	_	_
+121	szabadságának	szabadság	N	_	SubPOS=c|Num=s|Cas=g|NumP=s|PerP=3|NumPd=none	120	COORD	_	_
+122	sérelmével	sérelem	N	_	SubPOS=c|Num=s|Cas=i|NumP=s|PerP=3|NumPd=none	123	OBL	_	_
+123	jár	jár	V	_	SubPOS=m|Mood=i|Tense=p|Per=3|Num=s|Def=n	117	ATT	_	_
+124	;	;	;	_	_	96	PUNCT	_	_
+125	-	-	-	_	_	126	PUNCT	_	_
+126	állapítsa	állapít	V	_	SubPOS=m|Mood=m|Tense=p|Per=3|Num=s|Def=y	96	COORD	_	_
+127	meg	meg	R	_	SubPOS=p|Deg=none|Num=none|Per=none	126	PREVERB	_	_
+128	a	a	T	_	SubPOS=f	129	DET	_	_
+129	szervezet	szervezet	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	130	ATT	_	_
+130	megszűnését	megszűnés	N	_	SubPOS=c|Num=s|Cas=a|NumP=s|PerP=3|NumPd=none	126	OBJ	_	_
+131	,	,	,	_	_	126	PUNCT	_	_
+132	ha	ha	C	_	SubPOS=s|Form=s|Coord=p	126	CONJ	_	_
+133	legalább	legalább	R	_	SubPOS=x|Deg=none|Num=none|Per=none	134	MODE	_	_
+134	egy	egy	M	_	SubPOS=c|Num=s|Cas=n|Form=l|NumP=none|PerP=none|NumPd=none	135	ATT	_	_
+135	éve	év	N	_	SubPOS=c|Num=s|Cas=n|NumP=s|PerP=3|NumPd=none	137	TFROM	_	_
+136	nem	nem	R	_	SubPOS=m|Deg=none|Num=none|Per=none	137	NEG	_	_
+137	működik	működik	V	_	SubPOS=m|Mood=i|Tense=p|Per=3|Num=s|Def=n	132	ATT	_	_
+138	vagy	vagy	C	_	SubPOS=c|Form=s|Coord=w	137	CONJ	_	_
+139	tagjainak	tag	N	_	SubPOS=c|Num=p|Cas=g|NumP=s|PerP=3|NumPd=none	140	ATT	_	_
+140	száma	szám	N	_	SubPOS=c|Num=s|Cas=n|NumP=s|PerP=3|NumPd=none	153	SUBJ	_	_
+141	tartósan	tartós	A	_	SubPOS=f|Deg=p|Num=s|Cas=w|NumP=none|PerP=none|NumPd=none	153	MODE	_	_
+142	a	a	T	_	SubPOS=f	143	DET	_	_
+143	törvény	törvény	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	144	ATT	_	_
+144	által	által	S	_	SubPOS=t	145	MODE	_	_
+145	megkívánt	megkívánt	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	146	ATT	_	_
+146	létszám	létszám	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	152	ATT	_	_
+147	(	(	(	_	_	150	PUNCT	_	_
+148	egyesületeknél	egyesület	N	_	SubPOS=c|Num=p|Cas=3|NumP=none|PerP=none|NumPd=none	150	OBL	_	_
+149	tíz	tíz	M	_	SubPOS=c|Num=s|Cas=n|Form=l|NumP=none|PerP=none|NumPd=none	150	ATT	_	_
+150	fő	fő	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	152	APPEND	_	_
+151	)	)	)	_	_	150	PUNCT	_	_
+152	alatt	alatt	S	_	SubPOS=t	153	MODE	_	_
+153	van	van	V	_	SubPOS=m|Mood=i|Tense=p|Per=3|Num=s|Def=n	138	COORD	_	_
+154	.	.	.	_	_	0	PUNCT	_	_
+
+3172
+NOHEAD: 7 38
+NOHEAD: 7 37
+NOHEAD: 7 33
+NOHEAD: 7 32
+NOHEAD: 7 31
+NOHEAD: 7 30
+NOHEAD: 7 20
+NOHEAD: 7 19
+NOHEAD: 7 18
+
+1	Erre	ez	P	_	SubPOS=d|Per=3|Num=s|Cas=s|NumP=none|PerP=none|NumPd=none	3	OBL	_	_
+2	akkor	akkor	R	_	SubPOS=d|Deg=none|Num=none|Per=none	3	TLOCY	_	_
+3	kerülhet	kerülhet	V	_	SubPOS=m|Mood=i|Tense=p|Per=3|Num=s|Def=n	0	ROOT	_	_
+4	sor	sor	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	3	SUBJ	_	_
+5	,	,	,	_	_	3	PUNCT	_	_
+6	ha	ha	C	_	SubPOS=s|Form=s|Coord=p	3	CONJ	_	_
+7	-	-	-	_	_	18	PUNCT	_	_
+8	a	a	T	_	SubPOS=f	10	DET	_	_
+9	törvényes	törvényes	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	10	ATT	_	_
+10	működés	működés	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	11	ATT	_	_
+11	helyreállítása	helyreállítás	N	_	SubPOS=c|Num=s|Cas=n|NumP=s|PerP=3|NumPd=none	12	ATT	_	_
+12	érdekében	érdek	N	_	SubPOS=c|Num=s|Cas=2|NumP=s|PerP=3|NumPd=none	13	OBL	_	_
+13	meghozott	meghozott	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	14	ATT	_	_
+14	figyelmeztetésben	figyelmeztetés	N	_	SubPOS=c|Num=s|Cas=2|NumP=none|PerP=none|NumPd=none	15	OBL	_	_
+15	megállapított	megállapított	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	16	ATT	_	_
+16	határidő	határidő	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	18	SUBJ	_	_
+17	eredménytelenül	eredménytelen	A	_	SubPOS=f|Deg=p|Num=s|Cas=w|NumP=none|PerP=none|NumPd=none	18	MODE	_	_
+18	telt	telik	V	_	SubPOS=m|Mood=i|Tense=s|Per=3|Num=s|Def=n	7	COORD	_	_
+19	el	el	R	_	SubPOS=p|Deg=none|Num=none|Per=none	18	PREVERB	_	_
+20	;	;	;	_	_	18	PUNCT	_	_
+21	-	-	-	_	_	30	PUNCT	_	_
+22	a	a	T	_	SubPOS=f	28	DET	_	_
+23	törvényességi	törvényességi	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	24	ATT	_	_
+24	felügyeleti	felügyeleti	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	28	ATT	_	_
+25	(	(	(	_	_	26	PUNCT	_	_
+26	ügyészi	ügyészi	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	24	APPEND	_	_
+27	)	)	)	_	_	26	PUNCT	_	_
+28	intézkedés	intézkedés	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	30	SUBJ	_	_
+29	nem	nem	R	_	SubPOS=m|Deg=none|Num=none|Per=none	30	NEG	_	_
+30	járt	jár	V	_	SubPOS=m|Mood=i|Tense=s|Per=3|Num=s|Def=n	18	COORD	_	_
+31	eredménnyel	eredmény	N	_	SubPOS=c|Num=s|Cas=i|NumP=none|PerP=none|NumPd=none	30	OBL	_	_
+32	,	,	,	_	_	30	PUNCT	_	_
+33	illetve	illetve	C	_	SubPOS=c|Form=s|Coord=p	30	CONJ	_	_
+34	nem	nem	R	_	SubPOS=m|Deg=none|Num=none|Per=none	37	NEG	_	_
+35	várható	várható	A	_	SubPOS=f|Deg=p|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	37	PRED	_	_
+36	tőle	tőle	R	_	SubPOS=l|Deg=none|Num=s|Per=3|Cas=b	35	OBL	_	_
+37	_	_	VAN	_	_	33	COORD	_	_
+38	eredmény	eredmény	N	_	SubPOS=c|Num=s|Cas=n|NumP=none|PerP=none|NumPd=none	37	SUBJ	_	_
+39	.	.	.	_	_	0	PUNCT	_	_
+
