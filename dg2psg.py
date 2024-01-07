@@ -1,12 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# In[ ]:
 
 
 ROOT = 0
 NOHEAD = -1
 MULTIHEAD = -2
 
+
+# In[ ]:
 
 
 def closedXP(start: int, end: int, d: list[int]) -> int:
@@ -33,7 +36,10 @@ def closedXP(start: int, end: int, d: list[int]) -> int:
     return head
 
 
-def firstMaxXP(start: int, end: int, d: list[int]) -> tuple[int, int, int]:
+# In[ ]:
+
+
+def firstMaxXP(start: int, end: int, d: list[int], checkNohead = False) -> tuple[int, int, int]:
     '''
     a start…end tartományba eső első maxXP-t adja vissza 
     visszaadott érték: az első maxXP a tartományban: (XPstart, XPhead, XPend)
@@ -47,15 +53,19 @@ def firstMaxXP(start: int, end: int, d: list[int]) -> tuple[int, int, int]:
         return (start, end, end) # egyszavas frázis 
     
     head = closedXP(start,end,d)
-    
+
+    if head == NOHEAD and checkNohead:
+        raise Exception('Dependency graph is cyclic', start, end)
     if head == MULTIHEAD or head == NOHEAD:
-        return firstMaxXP(start,end-1,d)
+        return firstMaxXP(start,end-1,d, checkNohead)
     else:
         return (start, head, end)
 
 
+# In[ ]:
 
-def allMaxXP(start: int, end: int, d: list[int]) -> list[tuple[int, int, int]]:
+
+def allMaxXP(start: int, end: int, d: list[int], checkNohead = False) -> list[tuple[int, int, int]]:
     '''
     a start…end tartományba eső összes maxXP-t adja vissza
     visszaadott érték: az maxXP-k listája a tartományban: [(XPstart, XPhead, XPend), …]
@@ -70,16 +80,18 @@ def allMaxXP(start: int, end: int, d: list[int]) -> list[tuple[int, int, int]]:
     if start == end:
         (start1, head1, end1) = (start, start, end)
     else:
-        (start1, head1, end1) = firstMaxXP(start,end,d)
+        (start1, head1, end1) = firstMaxXP(start,end,d, checkNohead)
     
     allXP = [(start1, head1, end1)]
     
     if end1 < end:
-        restXP = allMaxXP(end1+1, end, d)
+        restXP = allMaxXP(end1+1, end, d, checkNohead)
         allXP = allXP+restXP
     
     return allXP
 
+
+# In[ ]:
 
 
 def allMaxXP2(start: int, head: int, end: int, d: list[int]) -> list[tuple[int, int, int]]:
@@ -104,8 +116,10 @@ def allMaxXP2(start: int, head: int, end: int, d: list[int]) -> list[tuple[int, 
     return allXP
 
 
+# In[ ]:
 
-def allMaxXP_recursive(start: int, end: int, d: list[int]) -> list[tuple[int, int, int]]:
+
+def allMaxXP_recursive(start: int, end: int, d: list[int], checkNohead = False) -> list[tuple[int, int, int]]:
     '''
     a start…end tartományba eső összes maxXP-t adja vissza rekurzívan
     visszaadott érték: az összes maxXP listája a tartományban: [(XPstart, XPhead, XPend), …]
@@ -120,25 +134,23 @@ def allMaxXP_recursive(start: int, end: int, d: list[int]) -> list[tuple[int, in
     if start == end:
         (start1, head1, end1) = (start, start, end)
     else:
-        (start1, head1, end1) = firstMaxXP(start,end,d)
+        (start1, head1, end1) = firstMaxXP(start,end,d,checkNohead)
         
     allXP = [(start1, head1, end1)]
     
     if start1 < head1:
-        XPsBeforeHead = allMaxXP_recursive(start1, head1-1, d)
+        XPsBeforeHead = allMaxXP_recursive(start1, head1-1, d, checkNohead)
         allXP = allXP + XPsBeforeHead
         
     if head1 < end1:
-        XPsAfterHead = allMaxXP_recursive(head1+1, end1, d)
+        XPsAfterHead = allMaxXP_recursive(head1+1, end1, d, checkNohead)
         allXP = allXP + XPsAfterHead
         
     if end1 < end:
-        restXP = allMaxXP_recursive(end1+1, end, d)
+        restXP = allMaxXP_recursive(end1+1, end, d, checkNohead)
         allXP = allXP + restXP
         
     return allXP
-
-
 
 def allSpecXP(sentence, start: int, end: int, d: list[int], XPtest) -> list[tuple[int, int, int]]:
     '''
@@ -186,6 +198,7 @@ def allSpecXP(sentence, start: int, end: int, d: list[int], XPtest) -> list[tupl
     
     return allXP
 
+# In[ ]:
 
 
 def getDep(dep0:list[tuple[int, int, int]]) -> tuple[dict, dict, list[int]]:
@@ -200,5 +213,11 @@ def getDep(dep0:list[tuple[int, int, int]]) -> tuple[dict, dict, list[int]]:
     invdict[root] = ROOT
     d = [invdict[id] for id in deps]
     return dict0, invdict, d   
+
+def CPtest(sentence, start, head, end, deps):
+    return sentence[head-1]['upostag'] == 'VERB'
+# In[ ]:
+
+
 
 
