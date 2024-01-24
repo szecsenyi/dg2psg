@@ -64,7 +64,7 @@ az `XPtest` döntést hoz
 
 ## Idézés
 
-Ha használnád a `dg2psg`, vagy csak megemltenéd, így hivatkozhatsz rá:
+Ha használnád a `dg2psg`-t, vagy csak megemlítenéd, így hivatkozhatsz rá:
 
 > Szécsényi Tibor 2024. Tagmondatok és megszakítatlan összetevők kinyerése
 függőségi elemzésből. In Berend Gábor - Gosztolya Gábor - Vincze Veronika (szerk.) *XX. Magyar Számítógépes Nyelvészeti Konferencia*. Szeged: Szegedi Tudományegyetem, Informatikai Intézet. 217-228.
